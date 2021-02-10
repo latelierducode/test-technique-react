@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: content-box;
 }
 
 body {
@@ -76,4 +77,57 @@ nav ol li a {
 .straightText {
   transform: rotate(5deg);
   display: inline-block;
+}
+
+.LinkAndTextComponent {
+  display: flex;
+}
+
+.LinkAndTextComponent .link {
+  flex: 1;
+  color: #6347fe;
+  text-decoration: underline;
+  margin-left: 30px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.LinkAndTextComponent .text {
+  flex: 1;
+  color: #c2c4c9;
+}
+
+.boldText {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.TextComponent {
+  display: flex;
+}
+
+.yourluck {
+  font-size: 30px;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+.joinus {
+  padding-left: 20px;
+}
+
+.joinNow2 {
+  background-color: #ffa500;
+  color: white;
+  text-decoration: underline;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.joinNow2 a {
+  text-decoration: none;
+  color: white;
 }
